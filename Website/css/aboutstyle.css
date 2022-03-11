@@ -1,0 +1,237 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+html {
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+  font-size: 62.5%;
+  padding: 2% 0 2% 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header { 
+  background-color: white;
+  width: 90vw;
+  height: 5%;
+  border-radius: 50px;
+  font-family: 'Volkhov', serif;
+  font-size: 2.2rem;
+}
+
+.topoptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 87vw;
+  margin-left: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.topoptions li {
+  list-style: none;
+}
+
+li:hover, li:focus {
+  color: #e8198b;
+  position: relative;
+  bottom: 3px;
+  transition: 0.15s;
+  border-bottom: solid 2px #e8198b;
+}
+
+.selection {
+  color: #e8198b;
+  position: relative;
+  bottom: 3px;
+  transition: 0.15s;
+  border-bottom: solid 2px #e8198b;
+}
+
+.allone {
+  display: flex;
+  flex-direction: row;
+}
+
+.edtext {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: white;
+  position: relative;
+  left: -18px;
+  bottom: 160px;
+  font-weight: lighter;
+}
+
+.education {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  width: 750px;
+  height: 20%;
+  border-radius: 50px;
+  margin-top: 3%;
+  position: relative;
+  left: -15px;
+  padding-bottom: 3%;
+}
+
+.edleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*border: solid 2px black; */
+  background-color: white;
+  border-radius: 40px;
+  width: 20%;
+  height: 100%;
+  position: relative;
+  left: 60px;
+}
+
+.edright {
+  width: 60%;
+  padding-left: 13%;
+}
+
+h2 {
+  font-family: 'Volkhov', serif;
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+.alltwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 750px;
+}
+
+.half {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  width: 48%;
+  height: auto;
+  border-radius: 50px;
+  margin-top: 3%;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 0; 
+  padding-left: 0;
+  list-style-type: none;
+  
+}
+
+.listli {
+  align-self: center;
+  font-family: 'Volkhov', serif;
+  font-size: 3rem;
+  margin-bottom: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.listli:hover, .listli:focus {
+  color: black;
+  border-bottom: none;
+  position: relative;
+  bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.allthree {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.exptext {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: white;
+  position: relative;
+  left: -18px;
+  bottom: 400px;
+  font-weight: lighter;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  width: 750px;
+  height: auto;
+  border-radius: 50px;
+  margin-top: 3%;
+  position: relative;
+  left: -15px;
+}
+
+hr {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px rgb(123, 123, 123);
+  width: 80%;
+}
+
+.world {
+  margin: 3% 0 3% 0;
+  border-radius: 30px;
+  width: 717px;
+  height: 307px;
+}
+
+.usa {
+  margin: 3% 0 3% 0;
+  border-radius: 30px;
+  width: 720px;
+  height: 500px;
+}
