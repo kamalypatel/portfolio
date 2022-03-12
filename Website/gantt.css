@@ -1,0 +1,93 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  
+  height: 100vh;
+  width: 100vw;
+}
+
+.row {
+  height: 15%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: flex-start;
+  margin-bottom: 0px;
+}
+
+.part {
+  width: 20%;
+  border-radius: 15px;
+}
+
+.twospacerone {
+  width: 20%;
+}
+
+.twospacertwo {
+  width: 60%;
+}
+
+.threespacerone {
+  width: 40%;
+}
+
+.threespacertwo {
+  width: 40%;
+}
+
+.fourspacerone {
+  width: 60%;
+}
+
+.fourspacertwo {
+  width: 20%;
+}
+
+.fivespacerone {
+  width: 80%;
+}
+
+.one {
+  background-color: blue;
+}
+
+.two {
+  background-color: red;
+}
+
+.three {
+  background-color: yellow;
+}
+
+.four {
+  background-color: magenta;
+}
+
+.five {
+  background-color: green;
+}
